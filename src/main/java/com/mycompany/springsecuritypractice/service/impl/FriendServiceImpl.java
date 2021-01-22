@@ -39,6 +39,6 @@ public class FriendServiceImpl implements FriendService {
 
     @Override
     public void deleteFriend(Long friendId) {
-        this.friends.removeIf(friend -> friend.getId().equals(friendId));
+        friends.removeIf(friend -> friend.getId().equals(friendId));
     }
 }
